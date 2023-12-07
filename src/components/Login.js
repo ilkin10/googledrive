@@ -10,7 +10,7 @@ export default function Login() {
           placeholder="Enter Email"
         />
       </div>
-      <div className="mb-4">
+      <div className="mb-4 WidthStyle">
         <input
           type="password"
           className="form-control inputStyle"
@@ -20,6 +20,10 @@ export default function Login() {
       </div>
       <button type="button" className="btn btn-primary button">
             Login
+      </button>
+      <span>  </span>
+      <button type="button" className="btn btn-secondary button">
+            SignUp
       </button>
     </div>
   );

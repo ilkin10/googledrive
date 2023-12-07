@@ -36,6 +36,10 @@ export default function SignUp() {
       <button type="button" className="btn btn-primary button">
         Sign Up
       </button>
+      <span></span>
+      <button type="button" className="btn btn-secondary button">
+            Login
+      </button>
     </div>
   );
 }
