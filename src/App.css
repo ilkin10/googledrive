@@ -34,15 +34,19 @@
 }
 
 .inputStyle{
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 
 .WidthStyle{
-  width: 100%;
+  width:300px;
   display: flex;
 justify-content: center;
 align-items: center;
+}
+
+.button{
+  width: 150px;
 }
 
 @keyframes App-logo-spin {

@@ -7,7 +7,7 @@ export default function Login() {
         <input
           type="email"
           className="form-control inputStyle"
-          placeholder="Type Your Email"
+          placeholder="Enter Email"
         />
       </div>
       <div className="mb-4">
@@ -15,10 +15,10 @@ export default function Login() {
           type="password"
           className="form-control inputStyle"
           aria-describedby="passwordHelpBlock"
-          placeholder="Type Password"
+          placeholder="Enter Password"
         />
       </div>
-      <button type="button" className="btn btn-primary">
+      <button type="button" className="btn btn-primary button">
             Login
       </button>
     </div>
