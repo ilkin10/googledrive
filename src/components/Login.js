@@ -6,7 +6,7 @@ export default function Login() {
     <div>
         <h3>Log In Page</h3>
       <div className="mb-4 WidthStyle">
-        <input
+        <input 
           type="email"
           className="form-control inputStyle"
           placeholder="Enter Email"
