@@ -1,8 +1,10 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
+import { Link } from "react-router-dom";
 export default function Login() {
   return (
     <div>
+        <h3>Log In Page</h3>
       <div className="mb-4 WidthStyle">
         <input
           type="email"
@@ -19,12 +21,12 @@ export default function Login() {
         />
       </div>
       <button type="button" className="btn btn-primary button">
-            Login
+        Login
       </button>
-      <span>  </span>
-      <button type="button" className="btn btn-secondary button">
-            SignUp
-      </button>
+      <h6 style={{ marginTop: 20 }}>
+        Don't have an account?
+        <Link to={"/signup"}> Sign Up</Link>
+      </h6>
     </div>
   );
 }
