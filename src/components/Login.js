@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 export default function Login() {
   return (
     <div>
-        <h3>Log In Page</h3>
+      <h3>Log In Page</h3>
       <div className="mb-4 WidthStyle">
-        <input 
+        <input
           type="email"
           className="form-control inputStyle"
           placeholder="Enter Email"
